@@ -1,8 +1,4 @@
 -- 1
-{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
-{-# HLINT ignore "Redundant if" #-}
-{-# OPTIONS_GHC -Wno-incomplete-patterns #-}
-{-# HLINT ignore "Redundant bracket" #-}
 max' :: Int->Int->Int->Int
 max' x y z = if(x>=y) && (x>=z) then x 
             else if (y>=z) then y else z
